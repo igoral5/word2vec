@@ -14,7 +14,7 @@ import locale
 import re
 import gensim 
 import logging
-import readline
+import readline  # @UnusedImport
 import multiprocessing
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
