@@ -127,7 +127,7 @@ class Senteces(object):
 
 
 def main():
-    sentences = Senteces('/home/igor/Dropbox/Books/Стивен Кинг/Тёмная башня', 'newscollection_lemma_dict.tsv', 'stop.txt')
+    sentences = Senteces('/home/igor/Dropbox/Books/Стивен Кинг/Тёмная башня', name_file_stop='stop.txt')
     model = gensim.models.Word2Vec(sentences, workers=multiprocessing.cpu_count())
     while True:
         s = raw_input(u'Input: ').decode('utf-8')

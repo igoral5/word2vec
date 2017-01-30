@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
 Created on 29 янв. 2017 г.
-Преобразует wiki текстовый файл
-@author: igor
+Преобразует формат wiki в текстовый файл
+@author: textanalysisapi@gmail.com
 '''
 import logging
 import os.path

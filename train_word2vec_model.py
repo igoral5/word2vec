@@ -2,7 +2,7 @@
 '''
 Created on 29 янв. 2017 г.
 Тренировка word2vec
-@author: igor
+@author: textanalysisapi@gmail.com
 '''
 import logging
 import os.path
