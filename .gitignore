@@ -8,7 +8,5 @@
 /lib/
 /lib64
 /pip-selfcheck.json
-/wiki.ru.text
-/wiki.ru.word2vec.model
-/wiki.ru.word2vec.model.syn1neg.npy
-/wiki.ru.word2vec.model.wv.syn0.npy
+/.ipynb_checkpoints/
+/share/
