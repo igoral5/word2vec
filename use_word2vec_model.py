@@ -25,7 +25,7 @@ def main():
     while True:
         try:
             inp = raw_input('Ввод: ').decode('utf-8')
-            spl = inp.lower().split(u'|')
+            spl = inp.lower().split(u',')
             if len(spl) >= 2:
                 positive = spl[0].strip().split()
                 negative = spl[1].strip().split()
@@ -36,7 +36,7 @@ def main():
                 logger.error(u'Пустой ввод')
                 continue
             for t in model.most_similar(positive=positive, negative=negative):
-                logger.info(u'%s %f', t[0], t[1])
+                logger.info(u'%-14s %f', t[0], t[1])
         except KeyError:
             logger.error(u'Не найдено')
 
