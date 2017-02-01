@@ -1,1 +1,1 @@
-# Learn work with gensim source from http://textminingonline.com/training-word2vec-model-on-english-wikipedia-by-gensim
+# Learn work with gensim, source from http://textminingonline.com/training-word2vec-model-on-english-wikipedia-by-gensim
